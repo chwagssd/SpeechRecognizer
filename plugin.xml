@@ -13,6 +13,8 @@
     <clobbers target="plugins.speechrecognizer" /> 
   </js-module>
   
+  <asset src="www/SpeechRecognizer.js" target="SpeechRecognizer.js" />
+  
   <platform name="android">
     <source-file src="src/android/SpeechRecognizer.java" target-dir="src/com/phonegap/plugins/speech" />
     <source-file src="src/android/LanguageDetailsChecker.java" target-dir="src/com/phonegap/plugins/speech" />
