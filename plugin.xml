@@ -9,13 +9,13 @@
   <description>Recognizes speech input</description>
   <license>MIT</license>
   
-  <js-module src="SpeechRecognizer.js" name="SpeechRecognizer">
+  <js-module src="www/SpeechRecognizer.js" name="SpeechRecognizer">
     <clobbers target="plugins.speechrecognizer" /> 
   </js-module>
   
   <platform name="android">
-    <source-file src="SpeechRecognizer.java" target-dir="src/com/phonegap/plugins/speech" />
-    <source-file src="LanguageDetailsChecker.java" target-dir="src/com/phonegap/plugins/speech" />
+    <source-file src="src/android/SpeechRecognizer.java" target-dir="src/com/phonegap/plugins/speech" />
+    <source-file src="src/android/LanguageDetailsChecker.java" target-dir="src/com/phonegap/plugins/speech" />
     
     <config-file target="res/xml/config.xml" parent="/*">
 	  <feature name="SpeechRecognizer" >
